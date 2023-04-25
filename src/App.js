@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import Card from "./Cards";
+import Data from "./Data"
+import Footer from "./Footer";
+
+function createCard(props){
+  return <Card 
+  key={props.id}
+  title={props.title}
+  image={props.image}
+/>
+}
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+    <h2>Nisha Creativity 🪡</h2>
+    <p className="headline">💕 Craft your beautiful memories forever 💕</p>
+      <div className="row">
+    {Data.map(createCard)}
     </div>
+    <Footer />
+    </div>
+    
   );
 }
 

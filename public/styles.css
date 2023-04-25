@@ -1,0 +1,69 @@
+html{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    padding: 5%;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    background-color: 	#53ddf2;
+}
+
+h2{
+   
+    text-align: center;
+    padding-bottom: 4%;
+    font-family:zeyada;
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.headline{
+    font-size: 3rem;
+    font-family: cookie;
+    /* font-weight: bold;  */
+}
+
+.card{
+    height: 100%;
+    width: 80%;
+    
+}
+
+.cardBox{
+    padding-bottom: 5%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.card-title{
+    text-align:center;
+    position: relative;
+    flex: auto;
+    vertical-align: bottom;
+    font-family: Sacramento;
+    font-weight: bold;
+}
+
+.row{
+    padding: 5%;
+}
+
+.icon{
+    font-size: 2.5rem;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+
+    
+}
+
+.copyright{
+    text-align: center;
+    opacity: 30%;
+    font-weight: bold;
+}
+
